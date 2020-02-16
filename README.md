@@ -9,7 +9,7 @@ This entire website was created using bootstrap, along with a very minor amount 
 ## Helpful links
  
 * [My Github Repository] https://github.com/rfazily/homework-two.git
-* [Public Link]
+* [Public Link] https://rfazily.github.io/homework-two/
 
 
 ---
