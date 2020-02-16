@@ -32,37 +32,126 @@
   
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="https://www.google.com">About</a>
+          <a class="nav-link" href="index.html">About</a>
         </li>
         <li class="navbar-item active">
-          <a class="nav-link">Portfolio</a>
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
         <li class="navbar-item active">
-          <a class="nav-link">Contact</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
     </nav>
 
     <div class="container">
-      <div class="row">
-        <div class="col-7">
 
-          <header>  
-            <div class="pt-lg-5 bg-white"> <h1 class="display-4"><strong>Hi, I'm Rayhana.</strong></h1></div>
-           </header>
-           <h2><small>Digital Marketing Manager with over five years of experience and a Web Developer-in training based out of Arlington, Virginia. I help clients improve their online reputation and web presence.</small></h2>
+<!-- <contact form code> -->
 
-        </div>
-        <div class="col-5">
-          <div class="pt-lg-5 bg-white"></div>
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <p class="card-text"><img src="file:///C:/Users/15854/Coding%20Bootcamp/Homework/homework-two/assets/rayhana-250.png" class="rounded float-left"></p>
+<section class="mb-4">
 
-        </div>
+  <!--Section heading-->
+  <header>
+  <div class="pt-lg-5 pb-2 bg-white"> <h1 class="display-4">Drop Me a Line</h1>
+ 
+</div>
+</header>
+
+<p class="pb-2"><strong>Have a project in mind? Reach out to me directly.</strong><br> [Form not activated]</p><br>
+
+  <!--Section description-->
+
+  <div class="row">
+
+      <!--Grid column | placeholder for an actual form as it is NOT currently functioning-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Your Name</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-4">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Your email</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-3">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Subject</label>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form mb-4">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Short description of your project request</label>
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+              <button type="button" class="btn btn-secondary">Send</a>
+              <!-- onclick="document.getElementById('contact-form').submit();" -->
+          </div>
+          <div class="status"></div>
       </div>
-      </div> 
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>Arlington, Virginia</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>(585) 000-0000</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>rfazily@gmail.com</p>
+              </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
+
+</section>
+
+
+
     </div>
+        
 
     </body>
  
