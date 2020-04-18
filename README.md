@@ -8,8 +8,13 @@ This password generator begins with a prompt for the length of the password, fol
 
 ## Helpful links
  
+<<<<<<< HEAD
 * [My Github Repository] https://github.com/rfazily/homework-three.git
 * [Public Link] https://rfazily.github.io/homework-three/
+=======
+* [My Github Repository] https://github.com/rfazily/homework-two.git
+* [Public Link] https://rfazily.github.io/homework-two/
+>>>>>>> 74487b46dcb21c0da04b1b94e96c0e4bea77c725
 
 
 ---
