@@ -1,15 +1,15 @@
-# GW Coding Bootcamp - Homework #2 due 2/15/2020
+# GW Coding Bootcamp - Homework #3 
 
 ## Overview
 
-The purpose of this homework #2 was to create our portfolio sites. The basic requirements included creating an index.html, portfolio.html, and contact.html page. In my index.html file, you will see a basic layout of a portfolio site that I plan to continue to build on as this course progresses and beyond.
+The purpose of this homework #3 was to great a password generator. The basic requirements included setting up a prompt to generate a password along with a series of prompts that included criteria and length requirements for the password.
 
-This entire website was created using bootstrap, along with a very minor amount of CSS that I left in the same file of each page as it pertained to the navbar and spacing issues I was experiencing using the basic bootstrap code. I attempted to keep all of the code organized within the code using the green tags within the sheet.
+This password generator begins with a prompt for the length of the password, followed by a prompt to choose the criteria based on the input. The result of the password generated will display in the text box on the page.
 
 ## Helpful links
  
-* [My Github Repository]
-* [Public Link]
+* [My Github Repository] https://github.com/rfazily/homework-three.git
+* [Public Link] https://rfazily.github.io/homework-three/
 
 
 ---
